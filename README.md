@@ -5,11 +5,25 @@ Actuellement en phase d'état de l'art. Monté en compétence sur les librairies
 
 ## Installation
 
-Pre-requis:
+Pré-requis:
 - python >= 3.10
 - pip
 
 Packages:
 ```
 $ pip install -r requirements.txt
+```
+
+## Utilisation
+
+1) Récupérer les données
+
+```
+$ python fetch.py
+```
+
+2) Calculer le "buy and hold"
+
+```
+$ python trading_bot.py
 ```
